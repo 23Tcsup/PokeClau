@@ -69,7 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
       height: height,
       decoration: const BoxDecoration(
           gradient: LinearGradient(colors: [
-        Color.fromARGB(255, 43, 153, 58),
+        Color.fromARGB(255, 255, 81, 177),
         Color.fromARGB(255, 0, 0, 0)
       ], begin: Alignment.topLeft, end: Alignment.bottomRight)),
       child: Stack(
@@ -86,9 +86,9 @@ class _HomeScreenState extends State<HomeScreen> {
             top: 150,
             left: 20,
             child: Text(
-              'PokeDex-Tecsup',
+              'PokeClau-Tecsup',
               style: TextStyle(
-                color: Colors.black12.withOpacity(0.5),
+                color: const Color.fromARGB(255, 255, 255, 255).withOpacity(0.5),
                 fontWeight: FontWeight.bold,
                 fontSize: 30,
               ),
